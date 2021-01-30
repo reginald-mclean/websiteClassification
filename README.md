@@ -5,6 +5,7 @@ Task #1: Entity Extraction and Processing
 - this task was completed using Beautiful Soup
 - the data was loaded and the data from the headers was extracted
 - next the content was extracted from these headers
+- this process was split into several functions which would allow for API-type usage in other projects if needed
 
 Task #2: Classification
 - the first step of this process was to extract the top X words from the websites and run those vectors through an Autoencoder
@@ -13,3 +14,4 @@ Task #2: Classification
 - this step attempted to cluster the vectors in X clusters, thus creating the labels
 - once the labels were created, Naive Bayes and a Neural Network was used to classify the sites
 - Naive Bayes performed slightly worse than the Neural Network
+
